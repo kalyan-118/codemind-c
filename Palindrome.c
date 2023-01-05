@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
     int n,rem=0,rev=0,temp=0;
@@ -12,10 +12,9 @@ int main()
     }
     if(temp==rev)
     {
-        printf("Palindrome");
+        printf("True");
     }
     else
-    {
-        printf("Not Palindrome");
-    }
+    printf("False");
+    
 }
